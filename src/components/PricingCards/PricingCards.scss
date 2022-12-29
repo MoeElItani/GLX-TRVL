@@ -1,0 +1,61 @@
+.pricing {
+   width: 100%;
+   padding: 6rem 1rem;
+   background: #000;
+
+   .card-container {
+      max-width: 1140px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      :hover {
+         background: #141414;
+      }
+
+      .card {
+         border: 1px solid #ccc;
+         padding: 6rem 5rem;
+         text-align: center;
+
+         h3 {
+            font-size: 1.45rem;
+            padding: 1rem;
+         }
+         p {
+            color: #ccc;
+            font-size: 1.2rem;
+            padding: 0.5rem 0;
+         }
+         .btn {
+            display: block;
+            margin: 1rem auto 0 auto;
+            width: 100%;
+         }
+         .bar {
+            border-bottom: 1px solid #ccc;
+            margin: 1.5rem auto;
+            width: 100%;
+            display: block;
+         }
+         .btc {
+            font-size: 3.3rem;
+            font-weight: 600;
+            padding: 1rem;
+         }
+      }
+   }
+}
+
+@media screen and (max-width: 980px) {
+   .card-container {
+      max-width: 90%;
+      flex-direction: column;
+      margin: auto;
+
+      .card {
+         margin: 1rem auto;
+      }
+   }
+}

@@ -1,0 +1,33 @@
+.form {
+   margin-top: 2rem;
+   form {
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      margin: auto;
+      max-width: 600px;
+
+      label {
+         margin-bottom: 0.5rem;
+         color: #fff;
+      }
+      input,
+      textarea {
+         margin-bottom: 1rem;
+         padding: 10px 16px;
+         font-size: 1.2rem;
+         font-family: Outfit, sans-serif;
+         border-radius: 2px;
+         border: 0px solid transparent;
+         background: #ddd;
+      }
+      input:focus,
+      textarea:focus {
+         outline: 3.5px solid #555;
+      }
+   }
+   #reply {
+      color: #ccc;
+      margin-top: 1rem;
+   }
+}
